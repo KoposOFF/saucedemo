@@ -54,7 +54,7 @@ playwright install
 
 Теперь вы можете запустить e2e тест с помощью следующей команды:
 ```bash
-python test_saucedemo.py
+python main.py
 ```
 Тест выполнит следующие действия:
 
