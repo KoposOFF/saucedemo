@@ -7,7 +7,16 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone <ссылка на ваш репозиторий>
+git clone https://github.com/KoposOFF/saucedemo
 cd saucedemo-test
 
 2. Установка зависимостей 
+pip install -r requirements.txt
+
+3. Установите браузеры Playwright:
+playwright install
+
+4. Для запуска теста используйте команду:
+python main.py
+
+Тест автоматически откроет браузер, выполнит авторизацию, добавит товар в корзину, оформит покупку и проверит успешное завершение.
