@@ -10,7 +10,7 @@
 git clone https://github.com/KoposOFF/saucedemo
 cd saucedemo-test
 
-2. Установка зависимостей 
+2. Установка зависимостей:
 pip install -r requirements.txt
 
 3. Установите браузеры Playwright:
